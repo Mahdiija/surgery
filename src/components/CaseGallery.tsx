@@ -16,11 +16,11 @@ export default function CaseGallery() {
   return (
     <section>
       {/* Filter Bar */}
-      <div className="flex flex-nowrap md:flex-wrap items-center gap-4 md:gap-8 border-b border-outline-variant/20 mb-8 md:mb-12 pb-2 animate-fade-in-up overflow-x-auto scrollbar-hide">
+      <div className="flex flex-nowrap md:flex-wrap items-center gap-2 md:gap-8 border-b border-outline-variant/20 mb-8 md:mb-12 pb-2 animate-fade-in-up overflow-x-auto scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
         {filters.map((filter, index) => (
           <button 
             key={filter.id}
-            className={`font-label-md text-label-sm md:text-label-md pb-3 transition-colors whitespace-nowrap ${index === 0 ? 'text-secondary border-b-2 border-secondary' : 'text-on-surface-variant hover:text-secondary'}`}
+            className={`font-label-md text-label-sm md:text-label-md pb-3 transition-colors whitespace-nowrap px-2 md:px-0 ${index === 0 ? 'text-secondary border-b-2 border-secondary' : 'text-on-surface-variant hover:text-secondary'}`}
           >
             {filter.label}
           </button>
@@ -28,7 +28,7 @@ export default function CaseGallery() {
       </div>
 
       {/* Case Gallery Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
         {/* Case Card 1 */}
         <article className="group bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col h-full clinical-shadow transition-all duration-300 hover:-translate-y-2 animate-fade-in-up">
           <div className="aspect-4/5 relative overflow-hidden">
@@ -102,18 +102,18 @@ export default function CaseGallery() {
         </article>
 
         {/* Case Card 4 (Asymmetric Grid Element) */}
-        <article className="group bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col lg:col-span-2 md:flex-row h-full clinical-shadow transition-all duration-300 hover:-translate-y-2 animate-fade-in-up">
-          <div className="md:w-1/2 relative overflow-hidden aspect-video md:aspect-auto">
+        <article className="group bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col lg:col-span-2 lg:flex-row h-full clinical-shadow transition-all duration-300 hover:-translate-y-2 animate-fade-in-up">
+          <div className="lg:w-1/2 relative overflow-hidden aspect-video lg:aspect-auto">
             <img 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
               alt={t('Cases.case4.title')}
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUTRpWeu0hYWrJbujx85SIltrd-kAiOFpB52I7vYJqBKO90QEcZYBwhAnwa7v7AEfd9u6PFOnDSi9ewnW9iYd1Kvxq9sFwLhtvFv16N_umyOlT2BVEXDjCf14oCC0_ebMyBp4V2vZra6-Kq6No-m_GvihQfqxh4RbS0j0oxMKFMeEYC2GcJ0OX9U2dDucm_g-_c81TWQr11M8_jEut5XZePrJFXKRGNKFY1FKfUTE389OpyDDJF7K_1FGRqPTa2dAwMf__Gctqx0I2" 
             />
           </div>
-          <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center">
+          <div className="lg:w-1/2 p-6 md:p-8 lg:p-12 flex flex-col justify-center">
             <span className="font-label-sm md:font-label-md text-label-sm md:text-label-md text-secondary uppercase tracking-widest block mb-4">{t('Cases.case4.label')}</span>
-            <h3 className="font-headline-sm md:font-headline-md text-xl md:text-headline-md text-on-surface mb-4">{t('Cases.case4.title')}</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-6 md:mb-8">
+            <h3 className="font-headline-sm lg:font-headline-md text-xl lg:text-headline-md text-on-surface mb-4">{t('Cases.case4.title')}</h3>
+            <p className="font-body-md text-body-md text-on-surface-variant mb-6 lg:mb-8">
               {t('Cases.case4.description')}
             </p>
             <button className="w-full sm:w-fit border border-secondary text-secondary font-label-md text-label-md px-8 py-3 rounded-full hover:bg-secondary hover:text-on-secondary transition-all active:scale-95">
