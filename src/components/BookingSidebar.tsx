@@ -7,10 +7,10 @@ export default function BookingSidebar() {
 
   return (
     <aside className="space-y-8 animate-fade-in-right">
-      <div className="bg-surface-container-high rounded-xl p-8 clinical-shadow border-l-4 border-secondary rtl:border-l-0 rtl:border-r-4">
+      <div className="bg-surface-container-high rounded-xl p-6 md:p-8 clinical-shadow border-l-4 border-secondary rtl:border-l-0 rtl:border-r-4">
         <div className="flex items-center gap-3 mb-6">
           <span className="material-symbols-outlined text-secondary text-4xl">shield_with_heart</span>
-          <h3 className="font-headline-sm text-headline-sm text-on-surface">{t('safety.title')}</h3>
+          <h3 className="font-headline-sm text-lg md:text-headline-sm text-on-surface">{t('safety.title')}</h3>
         </div>
         <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 leading-relaxed">
           {t('safety.description')}

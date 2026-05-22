@@ -6,19 +6,19 @@ export default function AboutHero() {
   const t = useTranslations('AboutPage.Hero');
 
   return (
-    <section className="py-20 md:py-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+    <section className="py-12 md:py-32 px-4 md:px-margin-desktop max-w-container-max mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-gutter items-center">
         <div className="md:col-span-7 space-y-6 animate-fade-in-up">
-          <span className="text-secondary font-label-md text-label-md tracking-widest block">{t('label')}</span>
-          <h1 className="font-headline-lg text-headline-lg md:text-headline-lg leading-tight whitespace-pre-line">
+          <span className="text-secondary font-label-sm md:font-label-md text-label-sm md:text-label-md tracking-widest block">{t('label')}</span>
+          <h1 className="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg leading-tight whitespace-pre-line">
             {t('title').split('\n').map((line, i) => (
               <span key={i}>
                 {i === 1 ? <span className="text-secondary">{line}</span> : line}
-                {i === 0 && <br />}
+                {i === 0 && <br className="hidden md:block" />}
               </span>
             ))}
           </h1>
-          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          <p className="font-body-md md:font-body-lg text-body-md md:text-body-lg text-on-surface-variant max-w-2xl">
             {t('description')}
           </p>
         </div>

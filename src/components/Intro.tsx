@@ -6,8 +6,8 @@ export default function Intro() {
   const t = useTranslations('Intro');
 
   return (
-    <section className="py-24 bg-surface-container-lowest overflow-hidden">
-      <div className="px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center animate-fade-in-up">
+    <section className="py-16 md:py-24 bg-surface-container-lowest overflow-hidden">
+      <div className="px-4 md:px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center animate-fade-in-up">
         <div className="md:col-span-5 relative">
           <div className="aspect-4/5 rounded-xl overflow-hidden clinical-shadow">
             <img 
@@ -23,14 +23,14 @@ export default function Intro() {
           </div>
         </div>
         <div className="md:col-span-7">
-          <h2 className="font-headline-md text-headline-md text-on-surface mb-6">{t('title')}</h2>
-          <div className="space-y-6 text-on-surface-variant font-body-lg text-body-lg">
+          <h2 className="font-headline-sm md:font-headline-md text-headline-sm md:text-headline-md text-on-surface mb-6">{t('title')}</h2>
+          <div className="space-y-6 text-on-surface-variant font-body-md md:font-body-lg text-body-md md:text-body-lg">
             <p>{t('p1')}</p>
             <p>{t('p2')}</p>
           </div>
-          <div className="mt-10 flex items-center gap-4">
-            <div className="w-12 h-px bg-outline"></div>
-            <span className="font-headline-sm text-headline-sm text-on-surface">{t('doctor')}</span>
+          <div className="mt-8 md:mt-10 flex items-center gap-4">
+            <div className="w-8 md:w-12 h-px bg-outline"></div>
+            <span className="font-headline-sm text-lg md:text-headline-sm text-on-surface">{t('doctor')}</span>
           </div>
         </div>
       </div>

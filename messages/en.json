@@ -4,6 +4,7 @@
     "services": "Services",
     "specialties": "Specialties",
     "about": "About",
+    "archive": "Archive",
     "contact": "Contact",
     "book": "Book Appointment"
   },
@@ -23,22 +24,22 @@
   },
   "Services": {
     "label": "Our Expertise",
-    "title": "Specialized Procedures",
-    "jaw": {
-      "title": "Corrective Jaw Surgery",
-      "description": "Orthognathic procedures to improve facial symmetry, resolve sleep apnea, and restore functional alignment.",
-      "more": "Learn more"
+    "title": "Oral & Maxillofacial Surgery",
+    "outpatient": {
+      "title": "Outpatient (Clinic) Surgery",
+      "description": "Specialized services including digital dental implants, impacted wisdom tooth extractions, gummy smile correction (crown lengthening), and advanced bone and gum grafting using laser technology.",
+      "more": "View Treatment Details"
     },
-    "wisdom": {
-      "title": "Wisdom Teeth",
-      "description": "Gentle, safe extraction of third molars with advanced sedation options for maximum comfort.",
-      "more": "Details"
+    "hospital": {
+      "title": "Hospital & Reconstructive Surgery",
+      "description": "Complex maxillofacial surgeries (orthognathic), submental liposuction, nano-fat injection for rejuvenation, and aesthetic eyelid surgery (blepharoplasty) performed in Tehran's top hospitals.",
+      "more": "View Surgery Details"
     },
-    "implants": {
-      "label": "Restorative Care",
-      "title": "Dental Implants",
-      "description": "Permanent, natural-looking tooth replacements using bio-integrated titanium and ceramic technology.",
-      "more": "View Case Studies"
+    "injections": {
+      "label": "Non-Surgical Rejuvenation",
+      "title": "Aesthetic Injections & Fillers",
+      "description": "Jawline and facial contouring, lip and cheek fillers, and wrinkle reduction with Botox (Dysport & Masport) performed by a maxillofacial surgeon.",
+      "more": "Book Consultation"
     }
   },
   "Stats": {
@@ -85,40 +86,25 @@
       "journey": "Patient Journey"
     },
     "Procedures": {
-      "title": "Surgical Procedures",
-      "subtitle": "Comprehensive care delivered with surgical precision.",
-      "filter": "Categorized by Specialty",
-      "jaw": {
-        "label": "Orthognathic Surgery",
-        "title": "Corrective Jaw Surgery",
-        "description": "Essential for correcting skeletal irregularities and misaligned jaws to improve chewing, speaking, and breathing. This procedure harmonizes facial aesthetics while restoring foundational dental function.",
-        "inquire": "Inquire",
+      "title": "Surgical & Aesthetic Procedures",
+      "subtitle": "Specialized care with global standards in Tehran.",
+      "filter": "Service Categories",
+      "outpatient": {
+        "label": "Clinical Surgeries",
+        "title": "Outpatient Surgery",
+        "description": "Including advanced dental implants, impacted tooth extractions, crown lengthening, and specialized bone and gum grafting.",
+        "inquire": "Outpatient Inquiry",
         "learnMore": "Learn More"
       },
-      "implants": {
-        "title": "Dental Implants & Bone Grafting",
-        "description": "Permanent solutions for tooth loss, providing a stable foundation and preserving jawbone structure using biocompatible materials.",
-        "inquire": "Inquire"
+      "hospital": {
+        "title": "Hospital Surgery",
+        "description": "Specialized jaw surgery (orthognathic), facial contouring and liposuction, fat injection, and blepharoplasty in Tehran's top hospitals.",
+        "inquire": "Hospital Inquiry"
       },
-      "trauma": {
-        "title": "Facial Trauma Reconstruction",
-        "description": "Specialized repair of facial injuries including fractures and soft tissue wounds, focusing on both functional recovery and minimal scarring.",
-        "inquire": "Inquire"
-      },
-      "pathology": {
-        "title": "Oral Pathology",
-        "description": "Diagnostic services for abnormalities in the mouth and jaws, including biopsies and comprehensive management of oral diseases.",
-        "inquire": "Inquire"
-      },
-      "wisdom": {
-        "title": "Wisdom Teeth Extraction",
-        "description": "Safe and efficient removal of impacted or problematic third molars to prevent crowding, infection, and future dental complications.",
-        "inquire": "Inquire"
-      },
-      "tmj": {
-        "title": "TMJ Disorders Management",
-        "description": "Advanced diagnostic and therapeutic approaches for temporomandibular joint dysfunction, addressing chronic jaw pain and clicking.",
-        "inquire": "Inquire About TMJ Treatment"
+      "injections": {
+        "title": "Aesthetic Injections",
+        "description": "Facial rejuvenation and contouring with filler, Neurogel, and Botox injections by a maxillofacial surgeon.",
+        "inquire": "Book Injection"
       }
     },
     "Journey": {
@@ -236,21 +222,17 @@
     },
     "Grid": {
       "viewDetails": "View Details",
-      "reconstructive": {
-        "title": "Reconstructive Surgery",
-        "description": "Corrective procedures for congenital defects, pathology excision, and complex bone grafting to restore form and function."
+      "outpatient": {
+        "title": "Outpatient Surgery",
+        "description": "Dental implants, impacted tooth surgery, crown lengthening, and bone/gum grafting with modern techniques."
       },
-      "oral": {
-        "title": "Oral & Dental Surgery",
-        "description": "Specialized extractions, advanced dental implant placement, and management of soft tissue oral diseases."
+      "hospital": {
+        "title": "Hospital Surgery",
+        "description": "Specialized jaw surgery, liposuction, fat injection, and blepharoplasty in top medical centers."
       },
-      "aesthetics": {
-        "title": "Facial Aesthetics & TMJ",
-        "description": "Expert treatment for temporomandibular joint disorders and elective aesthetic procedures for facial harmony."
-      },
-      "trauma": {
-        "title": "Emergency & Trauma",
-        "description": "Rapid response for facial fractures, lacerations, and dental emergencies with immediate specialized intervention."
+      "injections": {
+        "title": "Aesthetic Injections",
+        "description": "Facial rejuvenation and contouring with filler, Neurogel, and Botox injections by a specialist."
       }
     },
     "Recovery": {
@@ -278,45 +260,35 @@
     "overview": "Overview",
     "procedures": "Common Procedures",
     "technology": "Technology Used",
-    "reconstructive": {
-      "overview": "Reconstructive surgery at MaxilloSurg focuses on restoring both form and function to the facial skeleton and soft tissues. Whether addressing congenital anomalies, post-traumatic defects, or the aftermath of pathology, our approach is surgical precision combined with aesthetic sensitivity.",
+    "outpatient": {
+      "overview": "Our outpatient surgical unit provides high-quality care for procedures that don't require an overnight stay. We focus on minimally invasive techniques to ensure rapid recovery and patient comfort.",
       "procedures": [
-        "Cleft Lip and Palate Repair",
-        "Orthognathic (Jaw) Reconstruction",
-        "Complex Bone Grafting",
-        "Facial Nerve Reconstruction"
+        "Advanced Dental Implants",
+        "Impacted Tooth Surgery",
+        "Crown Lengthening",
+        "Bone and Gum Grafting"
       ],
-      "technology": "We utilize 3D virtual surgical planning (VSP) and patient-specific implants (PSI) to ensure the highest level of accuracy and predictable outcomes."
+      "technology": "Equipped with the latest digital imaging and laser surgical tools for precise and painless clinic-based procedures."
     },
-    "oral": {
-      "overview": "Our oral and dental surgery department provides comprehensive care for complex dental issues. We specialize in procedures that require advanced surgical expertise beyond routine dentistry.",
+    "hospital": {
+      "overview": "For complex maxillofacial cases, we perform surgeries in Tehran's leading accredited hospitals. This ensures access to comprehensive medical support and advanced surgical theaters for major reconstructive work.",
       "procedures": [
-        "Advanced Dental Implantology",
-        "Impacted Wisdom Teeth Extraction",
-        "Pre-prosthetic Surgery",
-        "Management of Oral Pathology"
+        "Orthognathic (Jaw) Surgery",
+        "Facial Fat Injection",
+        "Blepharoplasty (Eyelid Surgery)",
+        "Facial Liposuction"
       ],
-      "technology": "Implementation of guided surgery and PRF (Platelet-Rich Fibrin) technology for accelerated healing and superior implant stability."
+      "technology": "Utilization of 3D virtual surgical planning and intraoperative navigation for complex hospital-based reconstructions."
     },
-    "aesthetics": {
-      "overview": "Facial aesthetics and TMJ management bridge the gap between functional health and aesthetic harmony. We treat the face as a whole, ensuring that every procedure enhances your natural features while maintaining optimal function.",
+    "injections": {
+      "overview": "Our aesthetic injection clinic offers non-surgical solutions for facial rejuvenation and contouring. All procedures are performed by a maxillofacial surgeon with a deep understanding of facial anatomy.",
       "procedures": [
-        "TMJ Arthroscopy and Management",
-        "Genioplasty (Chin Surgery)",
-        "Facial Contouring",
-        "Scar Revision Surgery"
+        "Filler Injections (Gel)",
+        "Neurogel Treatments",
+        "Botox Injections",
+        "Facial Contouring"
       ],
-      "technology": "Advanced arthroscopic equipment for minimally invasive TMJ procedures and 3D facial scanning for aesthetic planning."
-    },
-    "trauma": {
-      "overview": "Our trauma unit is equipped for rapid intervention in cases of facial injury. We prioritize immediate stabilization followed by meticulous reconstruction to minimize long-term functional and aesthetic impact.",
-      "procedures": [
-        "Facial Fracture Repair (Mandible, Maxilla, Zygoma)",
-        "Soft Tissue Laceration Repair",
-        "Emergency Dental Trauma Management",
-        "Orbital Floor Reconstruction"
-      ],
-      "technology": "State-of-the-art intraoperative imaging and rigid internal fixation systems for stable, anatomical reconstruction."
+      "technology": "We use only premium, FDA-approved injectable brands and advanced micro-cannula techniques for natural-looking results with minimal bruising."
     }
   },
   "BookingPage": {
@@ -390,6 +362,112 @@
         "label": "Accredited Facility",
         "title": "World-Class Surgical Arts"
       }
+    }
+  },
+  "ContactPage": {
+    "Hero": {
+      "label": "Get In Touch",
+      "title": "Precision Care, Personalized Connection",
+      "description": "Whether you are seeking a consultation for restorative surgery or have a clinical inquiry, our team of specialists is here to guide your journey to health."
+    },
+    "Form": {
+      "title": "Clinical Inquiry Form",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": {
+        "label": "Subject",
+        "option1": "Consultation Request",
+        "option2": "Procedure Information",
+        "option3": "Insurance Verification",
+        "option4": "Other"
+      },
+      "message": "Message",
+      "placeholder": "Please describe your surgical needs...",
+      "submit": "Send Inquiry"
+    },
+    "Details": {
+      "title": "Clinic Details",
+      "address": {
+        "label": "Address",
+        "value": "No. 12, Unit 4, Negar Alley, Above Vanak Sq., Valiasr St., Tehran, Iran"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "value": "+98 21 8888 8888"
+      },
+      "email": {
+        "label": "Email Address",
+        "value": "info@maxillosurg.ir"
+      }
+    },
+    "Hours": {
+      "title": "Office Hours",
+      "weekdays": "Saturday - Wednesday",
+      "saturday": "Thursday",
+      "sunday": "Friday",
+      "closed": "Closed"
+    },
+    "Emergency": {
+      "title": "Surgical Emergency",
+      "description": "For after-hours trauma care or immediate surgical concerns, please call our emergency line at {phone} or visit the nearest hospital emergency department.",
+      "phone": "+98 912 000 0000"
+    },
+    "Map": {
+      "title": "Find Us",
+      "description": "Easy access via Modarres Hwy and Valiasr St. Private parking available for patients.",
+      "directions": "Get Directions"
+    }
+  },
+  "ArchivePage": {
+    "Hero": {
+      "label": "The Art of Restoration",
+      "title": "Patient Archives & Case Gallery",
+      "description": "Explore our curated collection of surgical outcomes. Each case represents a unique journey of structural precision and aesthetic harmony, documented through professional clinical photography and patient narratives."
+    },
+    "Filters": {
+      "all": "All Cases",
+      "jaw": "Jaw Surgery",
+      "implants": "Dental Implants",
+      "reconstruction": "Facial Reconstruction",
+      "trauma": "Maxillofacial Trauma"
+    },
+    "Cases": {
+      "case1": {
+        "title": "Corrective Orthognathic Journey",
+        "description": "A comprehensive approach to addressing functional malocclusion and enhancing facial symmetry through bi-maxillary advancement.",
+        "quote": "The precision of the planning gave me so much confidence. My breathing and my profile have completely changed for the better.",
+        "author": "Sarah J., 28"
+      },
+      "case2": {
+        "title": "Full-Arch Reconstruction",
+        "description": "Immediate-load dental implant solution for complete oral rehabilitation, restoring both bite force and natural smile aesthetics.",
+        "quote": "I can finally smile and eat without hesitation. The transition from the temporary to final teeth was seamless and artistic.",
+        "author": "Michael R., 54"
+      },
+      "case3": {
+        "title": "Post-Traumatic Symmetry",
+        "description": "Reconstructing complex orbital and zygomatic fractures using 3D-printed titanium guides for absolute anatomical accuracy.",
+        "quote": "The team at MaxilloSurg didn't just fix my bones; they gave me my identity back. The results are nothing short of miraculous.",
+        "author": "Elena V., 32"
+      },
+      "case4": {
+        "label": "Patient Story",
+        "title": "The Transformative Power of Precision",
+        "description": "Our archives contain hundreds of stories just like these. Every patient receives a customized surgical plan designed with virtual reality pre-planning and microscopic precision. We don't just treat conditions; we restore quality of life.",
+        "cta": "View Full Case Study"
+      },
+      "case5": {
+        "title": "Sleep Apnea Resolution",
+        "description": "Genioglossus advancement combined with chin reshaping to significantly improve airway patency and profile projection.",
+        "quote": "Finally, I can sleep through the night. The functional benefits were the priority, but the aesthetic result is a huge bonus.",
+        "author": "David K., 45"
+      }
+    },
+    "CTA": {
+      "title": "Begin Your Own Journey",
+      "description": "Your transformation starts with a personalized consultation. Let our experts guide you through the possibilities of modern maxillofacial surgery.",
+      "request": "Request a Consultation",
+      "contact": "Contact Our Team"
     }
   }
 }

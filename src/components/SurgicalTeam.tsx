@@ -6,10 +6,10 @@ export default function SurgicalTeam() {
   const t = useTranslations('AboutPage.Team');
 
   return (
-    <section className="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 animate-fade-in-up">
+    <section className="py-16 md:py-24 px-4 md:px-margin-desktop max-w-container-max mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16 gap-6 animate-fade-in-up">
         <div className="max-w-2xl">
-          <h2 className="font-headline-md text-headline-md text-on-surface">{t('title')}</h2>
+          <h2 className="font-headline-sm md:font-headline-md text-headline-sm md:text-headline-md text-on-surface">{t('title')}</h2>
           <p className="font-body-md text-body-md text-on-surface-variant mt-4">{t('subtitle')}</p>
         </div>
         <button className="text-secondary font-label-md text-label-md flex items-center gap-2 hover:underline">

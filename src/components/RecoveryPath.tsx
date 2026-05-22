@@ -6,10 +6,10 @@ export default function RecoveryPath() {
   const t = useTranslations('SpecialtiesPage.Recovery');
 
   return (
-    <section className="mt-24 bg-surface-container p-8 md:p-12 rounded-xl clinical-shadow animate-fade-in-up">
+    <section className="mt-16 md:mt-24 bg-surface-container p-6 md:p-12 rounded-xl clinical-shadow animate-fade-in-up">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="font-headline-md text-headline-md text-on-surface mb-6">{t('title')}</h2>
+          <h2 className="font-headline-sm md:font-headline-md text-headline-sm md:text-headline-md text-on-surface mb-6">{t('title')}</h2>
           <p className="font-body-md text-body-md text-on-surface-variant mb-8">
             {t('description')}
           </p>
