@@ -1,0 +1,395 @@
+{
+  "Navbar": {
+    "brand": "MaxilloSurg",
+    "services": "Services",
+    "specialties": "Specialties",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Appointment"
+  },
+  "Hero": {
+    "label": "Surgical Excellence",
+    "title": "Precision in Every Procedure.\nCompassion in Every Care.",
+    "description": "Advanced maxillofacial solutions delivered with technical mastery and a patient-centered approach. Transforming lives through aesthetic and functional restoration.",
+    "book": "Book Consultation",
+    "explore": "Explore Services"
+  },
+  "Intro": {
+    "quote": "\"Your smile is the intersection of science and art.\"",
+    "title": "A Commitment to Surgical Artistry",
+    "p1": "Welcome to MaxilloSurg Surgical Arts. I am dedicated to providing the highest caliber of care in oral and maxillofacial surgery, combining rigorous clinical expertise with an eye for aesthetic balance.",
+    "p2": "Our practice is built on the foundation of safety, innovation, and empathy. From complex reconstructive surgeries to routine oral procedures, our team utilizes the latest digital planning technologies to ensure predictable, life-enhancing outcomes for every patient who walks through our doors.",
+    "doctor": "Dr. Julian Vance, MD, DDS"
+  },
+  "Services": {
+    "label": "Our Expertise",
+    "title": "Specialized Procedures",
+    "jaw": {
+      "title": "Corrective Jaw Surgery",
+      "description": "Orthognathic procedures to improve facial symmetry, resolve sleep apnea, and restore functional alignment.",
+      "more": "Learn more"
+    },
+    "wisdom": {
+      "title": "Wisdom Teeth",
+      "description": "Gentle, safe extraction of third molars with advanced sedation options for maximum comfort.",
+      "more": "Details"
+    },
+    "implants": {
+      "label": "Restorative Care",
+      "title": "Dental Implants",
+      "description": "Permanent, natural-looking tooth replacements using bio-integrated titanium and ceramic technology.",
+      "more": "View Case Studies"
+    }
+  },
+  "Stats": {
+    "years": "Years Experience",
+    "surgeries": "Surgeries Performed",
+    "satisfaction": "Patient Satisfaction",
+    "certifications": "Board Certifications"
+  },
+  "Testimonials": {
+    "label": "Patient Stories",
+    "title": "The Patient Experience",
+    "sarah": {
+      "text": "\"Dr. Vance changed my life. The corrective jaw surgery was a daunting prospect, but the precision and care shown by the entire team made me feel safe every step of the way.\"",
+      "author": "SARAH M. • JAW RECONSTRUCTION"
+    },
+    "james": {
+      "text": "\"The technology at MaxilloSurg is incredible. I had four wisdom teeth removed and the recovery was much faster and smoother than I ever expected. Truly professional.\"",
+      "author": "JAMES L. • WISDOM TEETH"
+    },
+    "elena": {
+      "text": "\"Professionalism at its finest. From the initial consultation to the final implant placement, the aesthetic result is perfect. I finally have my confidence back.\"",
+      "author": "ELENA R. • DENTAL IMPLANTS"
+    }
+  },
+  "CTA": {
+    "title": "Ready to start your journey?",
+    "description": "Your transformation begins with a conversation. Schedule your comprehensive evaluation with our surgical specialists today.",
+    "book": "Book Your Consultation",
+    "call": "Call (555) 012-3456"
+  },
+  "Footer": {
+    "description": "Advancing the science of surgery through precision, artistry, and exceptional patient care.",
+    "links": "Quick Links",
+    "legal": "Legal",
+    "hours": "Office Hours",
+    "rights": "© 2024 MaxilloSurg Surgical Arts. All rights reserved."
+  },
+  "ServicesPage": {
+    "Hero": {
+      "label": "Precision & Restoration",
+      "title": "Excellence in Maxillofacial & Oral Surgery",
+      "description": "Combining advanced surgical techniques with aesthetic sensitivity to restore function and enhance your natural features. Explore our range of specialized oral and maxillofacial procedures.",
+      "outcomes": "View Clinical Outcomes",
+      "journey": "Patient Journey"
+    },
+    "Procedures": {
+      "title": "Surgical Procedures",
+      "subtitle": "Comprehensive care delivered with surgical precision.",
+      "filter": "Categorized by Specialty",
+      "jaw": {
+        "label": "Orthognathic Surgery",
+        "title": "Corrective Jaw Surgery",
+        "description": "Essential for correcting skeletal irregularities and misaligned jaws to improve chewing, speaking, and breathing. This procedure harmonizes facial aesthetics while restoring foundational dental function.",
+        "inquire": "Inquire",
+        "learnMore": "Learn More"
+      },
+      "implants": {
+        "title": "Dental Implants & Bone Grafting",
+        "description": "Permanent solutions for tooth loss, providing a stable foundation and preserving jawbone structure using biocompatible materials.",
+        "inquire": "Inquire"
+      },
+      "trauma": {
+        "title": "Facial Trauma Reconstruction",
+        "description": "Specialized repair of facial injuries including fractures and soft tissue wounds, focusing on both functional recovery and minimal scarring.",
+        "inquire": "Inquire"
+      },
+      "pathology": {
+        "title": "Oral Pathology",
+        "description": "Diagnostic services for abnormalities in the mouth and jaws, including biopsies and comprehensive management of oral diseases.",
+        "inquire": "Inquire"
+      },
+      "wisdom": {
+        "title": "Wisdom Teeth Extraction",
+        "description": "Safe and efficient removal of impacted or problematic third molars to prevent crowding, infection, and future dental complications.",
+        "inquire": "Inquire"
+      },
+      "tmj": {
+        "title": "TMJ Disorders Management",
+        "description": "Advanced diagnostic and therapeutic approaches for temporomandibular joint dysfunction, addressing chronic jaw pain and clicking.",
+        "inquire": "Inquire About TMJ Treatment"
+      }
+    },
+    "Journey": {
+      "title": "The Patient Journey",
+      "consultation": {
+        "title": "Consultation",
+        "description": "Comprehensive digital imaging and clinical evaluation."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "3D virtual surgical planning for millimeter precision."
+      },
+      "procedure": {
+        "title": "Procedure",
+        "description": "Expert surgery in our state-of-the-art sterile environment."
+      },
+      "recovery": {
+        "title": "Recovery",
+        "description": "Dedicated post-operative care and follow-up support."
+      }
+    }
+  },
+  "AboutPage": {
+    "Hero": {
+      "label": "ABOUT THE PRACTICE",
+      "title": "Precision in Surgery, \nArtistry in Restoration.",
+      "description": "At MaxilloSurg Surgical Arts, we believe that maxillofacial surgery is a delicate balance of technical excellence and empathetic care. Led by world-renowned specialists, our practice is dedicated to restoring function and aesthetic harmony."
+    },
+    "Mission": {
+      "title": "Our Foundation",
+      "subtitle": "The core principles that guide every incision and interaction.",
+      "trust": {
+        "title": "Unwavering Trust",
+        "description": "We build lasting relationships through transparency, thorough education, and a commitment to patient safety that exceeds industry standards."
+      },
+      "precision": {
+        "title": "Surgical Precision",
+        "description": "Leveraging 3D digital surgical planning and robotic assistance to ensure every procedure is executed with mathematical accuracy and minimal downtime."
+      },
+      "comfort": {
+        "title": "Patient Comfort",
+        "description": "From advanced anesthesia protocols to a soothing recovery environment, we prioritize your physical and emotional well-being throughout the journey."
+      }
+    },
+    "Bio": {
+      "name": "Dr. Julian Vance, MD, DDS",
+      "p1": "Dr. Julian Vance is a dual-degree surgeon specializing in complex reconstructive and aesthetic maxillofacial surgery. With over 20 years of clinical experience, he has pioneered techniques in minimally invasive orthognathic surgery and full-arch dental rehabilitation.",
+      "p2": "His philosophy is rooted in \"Anatomical Integrity\"—the belief that the best surgical outcome is one that respects the natural structural harmony of the face while achieving life-changing functional improvements.",
+      "certifications": "Board Certifications",
+      "cert1": "American Board of Oral & Maxillofacial Surgery",
+      "cert2": "Fellow of the American College of Surgeons",
+      "cert3": "AAOMS Diplomat",
+      "journey": "Professional Journey",
+      "step1": {
+        "date": "2018 — PRESENT",
+        "title": "Founder, MaxilloSurg Surgical Arts",
+        "description": "Established a premier center for advanced surgical care, integrating AI-driven diagnosis and robotic surgical workflows."
+      },
+      "step2": {
+        "date": "2010 — 2018",
+        "title": "Chief of Maxillofacial Surgery, Metro General",
+        "description": "Directed a high-volume Level 1 trauma center, overseeing complex craniofacial reconstructions and training 15+ residents annually."
+      },
+      "step3": {
+        "date": "2006 — 2010",
+        "title": "Residency & Fellowship, Johns Hopkins",
+        "description": "Specialized fellowship in aesthetic facial surgery and microsurgical reconstruction."
+      }
+    },
+    "Innovation": {
+      "title": "The Apex of Clinical Innovation",
+      "description": "Our clinic is more than a practice—it's a hub of surgical innovation. We utilize proprietary digital twin technology to map your unique anatomy before the first incision is ever made.",
+      "feature1": {
+        "title": "3D Cone Beam CT Imaging",
+        "description": "Ultra-low radiation scans for pinpoint diagnostic accuracy."
+      },
+      "feature2": {
+        "title": "In-House Digital Lab",
+        "description": "3D printing of surgical guides and prosthetics for a perfect fit."
+      }
+    },
+    "Team": {
+      "title": "The Specialists Behind Your Care",
+      "subtitle": "Our multi-disciplinary team ensures every aspect of your surgery—from anesthesia to recovery—is handled by dedicated professionals.",
+      "cta": "MEET ALL STAFF",
+      "member1": {
+        "name": "Dr. Sarah Chen",
+        "role": "Head of Anesthesiology"
+      },
+      "member2": {
+        "name": "Marcus Thorne, RN",
+        "role": "Surgical Coordinator"
+      },
+      "member3": {
+        "name": "Dr. Leo Vance",
+        "role": "Clinical Research Lead"
+      },
+      "member4": {
+        "name": "Elena Rodriguez",
+        "role": "Patient Care Advocate"
+      }
+    },
+    "CTA": {
+      "title": "Begin Your Transformation",
+      "description": "We are currently accepting new patient consultations for restorative and aesthetic procedures. Contact us to schedule an appointment with Dr. Vance.",
+      "request": "Request Consultation",
+      "view": "View Procedure Details"
+    }
+  },
+  "SpecialtiesPage": {
+    "Hero": {
+      "label": "Center of Excellence",
+      "title": "Surgical Specialties",
+      "description": "Advanced maxillofacial solutions combining surgical precision with aesthetic restoration. We specialize in complex reconstructive and corrective procedures for the face, jaws, and teeth."
+    },
+    "Grid": {
+      "viewDetails": "View Details",
+      "reconstructive": {
+        "title": "Reconstructive Surgery",
+        "description": "Corrective procedures for congenital defects, pathology excision, and complex bone grafting to restore form and function."
+      },
+      "oral": {
+        "title": "Oral & Dental Surgery",
+        "description": "Specialized extractions, advanced dental implant placement, and management of soft tissue oral diseases."
+      },
+      "aesthetics": {
+        "title": "Facial Aesthetics & TMJ",
+        "description": "Expert treatment for temporomandibular joint disorders and elective aesthetic procedures for facial harmony."
+      },
+      "trauma": {
+        "title": "Emergency & Trauma",
+        "description": "Rapid response for facial fractures, lacerations, and dental emergencies with immediate specialized intervention."
+      }
+    },
+    "Recovery": {
+      "title": "Your Path to Recovery",
+      "description": "We guide you through every stage of your surgical journey with transparency and specialized care protocols.",
+      "step1": {
+        "title": "Initial Consultation",
+        "description": "Comprehensive diagnostics and 3D surgical planning."
+      },
+      "step2": {
+        "title": "Precision Procedure",
+        "description": "Minimally invasive techniques performed by board-certified surgeons."
+      },
+      "step3": {
+        "title": "Post-Op Recovery",
+        "description": "Tailored monitoring and long-term aesthetic follow-ups."
+      },
+      "statusLabel": "Clinic Status",
+      "statusValue": "Accredited Center of Surgical Arts"
+    }
+  },
+  "SpecialtyDetail": {
+    "back": "Back to Specialties",
+    "inquire": "Inquire About This Specialty",
+    "overview": "Overview",
+    "procedures": "Common Procedures",
+    "technology": "Technology Used",
+    "reconstructive": {
+      "overview": "Reconstructive surgery at MaxilloSurg focuses on restoring both form and function to the facial skeleton and soft tissues. Whether addressing congenital anomalies, post-traumatic defects, or the aftermath of pathology, our approach is surgical precision combined with aesthetic sensitivity.",
+      "procedures": [
+        "Cleft Lip and Palate Repair",
+        "Orthognathic (Jaw) Reconstruction",
+        "Complex Bone Grafting",
+        "Facial Nerve Reconstruction"
+      ],
+      "technology": "We utilize 3D virtual surgical planning (VSP) and patient-specific implants (PSI) to ensure the highest level of accuracy and predictable outcomes."
+    },
+    "oral": {
+      "overview": "Our oral and dental surgery department provides comprehensive care for complex dental issues. We specialize in procedures that require advanced surgical expertise beyond routine dentistry.",
+      "procedures": [
+        "Advanced Dental Implantology",
+        "Impacted Wisdom Teeth Extraction",
+        "Pre-prosthetic Surgery",
+        "Management of Oral Pathology"
+      ],
+      "technology": "Implementation of guided surgery and PRF (Platelet-Rich Fibrin) technology for accelerated healing and superior implant stability."
+    },
+    "aesthetics": {
+      "overview": "Facial aesthetics and TMJ management bridge the gap between functional health and aesthetic harmony. We treat the face as a whole, ensuring that every procedure enhances your natural features while maintaining optimal function.",
+      "procedures": [
+        "TMJ Arthroscopy and Management",
+        "Genioplasty (Chin Surgery)",
+        "Facial Contouring",
+        "Scar Revision Surgery"
+      ],
+      "technology": "Advanced arthroscopic equipment for minimally invasive TMJ procedures and 3D facial scanning for aesthetic planning."
+    },
+    "trauma": {
+      "overview": "Our trauma unit is equipped for rapid intervention in cases of facial injury. We prioritize immediate stabilization followed by meticulous reconstruction to minimize long-term functional and aesthetic impact.",
+      "procedures": [
+        "Facial Fracture Repair (Mandible, Maxilla, Zygoma)",
+        "Soft Tissue Laceration Repair",
+        "Emergency Dental Trauma Management",
+        "Orbital Floor Reconstruction"
+      ],
+      "technology": "State-of-the-art intraoperative imaging and rigid internal fixation systems for stable, anatomical reconstruction."
+    }
+  },
+  "BookingPage": {
+    "Hero": {
+      "label": "SECURE BOOKING",
+      "title": "Schedule Your Specialist Consultation",
+      "description": "Begin your journey towards functional restoration and aesthetic harmony with our surgical team."
+    },
+    "Steps": {
+      "service": "Service",
+      "schedule": "Schedule",
+      "info": "Patient Info"
+    },
+    "Form": {
+      "reason": {
+        "title": "Reason for Visit",
+        "label": "Primary Surgical Service",
+        "placeholder": "Select a procedure or consultation type",
+        "options": {
+          "wisdom": "Wisdom Teeth Extraction",
+          "implants": "Dental Implant Surgery",
+          "orthognathic": "Orthognathic (Jaw) Surgery",
+          "trauma": "Facial Trauma Reconstruction",
+          "pathology": "Oral Pathology / Biopsy",
+          "tmj": "TMJ Disorders"
+        }
+      },
+      "appointment": {
+        "title": "Preferred Appointment",
+        "slots": "Available Slots",
+        "note": "Note: Selected times are subject to surgical theater availability."
+      },
+      "patient": {
+        "title": "Patient Information",
+        "name": "Legal Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "insurance": "Insurance Provider"
+      },
+      "notes": {
+        "title": "Additional Clinical Notes",
+        "placeholder": "Briefly describe your symptoms, previous treatments, or specific concerns for the surgeon."
+      },
+      "buttons": {
+        "save": "Save Progress",
+        "confirm": "Confirm Appointment"
+      }
+    },
+    "Sidebar": {
+      "safety": {
+        "title": "Safety Protocols",
+        "description": "To ensure the highest standard of surgical safety, please adhere to the following pre-consultation protocols:",
+        "fasting": {
+          "title": "Fasting Requirements",
+          "description": "For sedation consultations, do not eat or drink 6 hours prior."
+        },
+        "records": {
+          "title": "Medical Records",
+          "description": "Please provide your most recent dental X-rays or CT scans."
+        },
+        "meds": {
+          "title": "Medication List",
+          "description": "Bring a comprehensive list of all current medications."
+        }
+      },
+      "emergency": {
+        "label": "Emergency Contact",
+        "phone": "+1 (800) SURG-MAX"
+      },
+      "facility": {
+        "label": "Accredited Facility",
+        "title": "World-Class Surgical Arts"
+      }
+    }
+  }
+}
